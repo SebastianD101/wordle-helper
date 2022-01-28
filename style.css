@@ -1,0 +1,82 @@
+body {
+    background-color: #121213;
+    color: #d7dadc;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 20px;
+    position: fixed; 
+    overflow-y: scroll;
+    width: 100%;
+}
+
+#box {
+    border: 5px solid red;
+    z-index: 2;
+    width: 37%;
+    height: 60px;
+    margin-left: 30%;
+    margin-top: 23%;
+    position: absolute;
+}
+
+#mydiv1 {
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    background-color: #121213;
+    border: 5px solid #3a3a3c;
+    cursor: move;
+    margin-left: 30%;
+    width: 5%;
+    font-size: 40px;
+  }
+
+  #mydiv2 {
+    position: absolute;
+    z-index: 1;
+    background-color: #121213;
+    border: 5px solid #3a3a3c;
+    text-align: center;
+    cursor: move;
+    margin-left: 38%;
+    width: 5%;
+    font-size: 40px;
+  }
+
+  #mydiv3 {
+    position: absolute;
+    z-index: 1;
+    background-color: #121213;
+    border: 5px solid #3a3a3c;
+    text-align: center;
+    cursor: move;
+    margin-left: 46%;
+    width: 5%;
+    font-size: 40px;
+  }
+
+  #mydiv4 {
+    position: absolute;
+    z-index: 1;
+    background-color: #121213;
+    border: 5px solid #3a3a3c;
+    text-align: center;
+    cursor: move;
+    margin-left: 54%;
+    width: 5%;
+    font-size: 40px;
+  }
+
+  #mydiv5 {
+    position: absolute;
+    z-index: 1;
+    background-color: #121213;
+    border: 5px solid #3a3a3c;
+    text-align: center;
+    cursor: move;
+    margin-left: 62%;
+    width: 5%;
+    font-size: 40px;
+  }
