@@ -9,6 +9,7 @@ body {
     position: fixed; 
     overflow-y: scroll;
     width: 100%;
+    overflow: hidden;
 }
 
 #box {
