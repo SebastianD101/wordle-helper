@@ -13,71 +13,80 @@ body {
 }
 
 #box {
-    border: 5px solid red;
+    border: 5px solid #538d4e;
     z-index: 2;
-    width: 37%;
-    height: 60px;
-    margin-left: 30%;
-    margin-top: 23%;
+    width: 28.56%;
+    height: 77px;
+    margin-left: 35.35%;
+    margin-top: 22.8%;
     position: absolute;
 }
 
-#mydiv1 {
+.mini-box {
+    border: 2px solid #3a3a3c;
+    background-color: #121213;
+    height: 75px;
+    margin-top: 0;
+    width: 100%;
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: bold;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    box-sizing: border-box;
+    color: var(--tile-text-color);
+    text-transform: uppercase;
+    user-select: none;
+}
+
+#column1 {
     position: absolute;
     z-index: 1;
     text-align: center;
-    background-color: #121213;
-    border: 5px solid #3a3a3c;
     cursor: move;
-    margin-left: 30%;
-    width: 5%;
+    margin-left: 35.7%;
+    width: 4.5%;
     font-size: 40px;
   }
 
-  #mydiv2 {
+  #column2 {
     position: absolute;
     z-index: 1;
-    background-color: #121213;
-    border: 5px solid #3a3a3c;
     text-align: center;
     cursor: move;
-    margin-left: 38%;
-    width: 5%;
+    margin-left: 41.7%;
+    width: 4.5%;
     font-size: 40px;
   }
 
-  #mydiv3 {
+  #column3 {
     position: absolute;
     z-index: 1;
-    background-color: #121213;
-    border: 5px solid #3a3a3c;
     text-align: center;
     cursor: move;
-    margin-left: 46%;
-    width: 5%;
+    margin-left: 47.7%;
+    width: 4.5%;
     font-size: 40px;
   }
 
-  #mydiv4 {
+  #column4 {
     position: absolute;
     z-index: 1;
-    background-color: #121213;
-    border: 5px solid #3a3a3c;
     text-align: center;
     cursor: move;
-    margin-left: 54%;
-    width: 5%;
+    margin-left: 53.7%;
+    width: 4.5%;
     font-size: 40px;
   }
 
-  #mydiv5 {
+  #column5 {
     position: absolute;
     z-index: 1;
-    background-color: #121213;
-    border: 5px solid #3a3a3c;
     text-align: center;
     cursor: move;
-    margin-left: 62%;
-    width: 5%;
+    margin-left: 59.7%;
+    width: 4.5%;
     font-size: 40px;
   }
